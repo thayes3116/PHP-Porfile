@@ -1,0 +1,186 @@
+body{
+	width:100%;
+	max-width: 960px;
+	margin:0;
+	background-image:url("assets/images/squared_metal.png") ;
+}
+
+.hfont{
+	font-family:'Georgia', Times, Times New Roman, serif; 
+	font-style:bold;
+}
+
+.pfont {
+	font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.head1{
+	background-color: white;
+	width:100%;
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 20px;
+}
+
+.myname {
+	background-color:#4aaaa5;
+	padding-top: 30px;
+    height: 100px;
+}
+
+.name{
+	text-align: center;
+	font-size:25px;
+	color:white;
+}
+
+.headdiv {
+	height:1px;
+	width:100%;
+	background-color: #a9a9a9;
+}
+
+nav{
+	text-align:center;
+	background-color: white;
+	color:#d3d3d3;
+	padding-top: 40px;
+}
+
+.navlink{
+	color:#d3d3d3;
+	text-decoration: none;
+}		
+
+.aboutmebody{
+	background-color: white;
+	margin: 0 15px 50px 0;
+}
+.portfoliobody {
+	background-color: white;
+	width:400px;
+	height:475px;
+	margin-right:40px;
+	margin-bottom:50px;
+}
+
+.subhead{
+	margin:20px 0px 0px 55px; 
+	font-size:25px;
+	color:#4aaaa5;
+	padding:5px;
+}
+
+.profpic{
+	transform:rotate(90deg);
+	height:230px;
+	width:200px;
+	float:left;
+	margin:-10px 25px 0px 20px;
+}
+
+.biopara{
+	margin:20px 10px 10px 10px;
+}
+.deed{
+	margin:30px 0px 0px 35px;
+
+}
+
+.deedimg{
+	width: 125px;
+	height:100px;
+	float:left;
+}
+.deedlabel{
+	position:relative;
+	float:left;
+	bottom:25px;
+	width:125px;
+	color:white;
+	background-color: #4aaaa5;
+	text-align:center;
+}
+.contactbody{
+	float:left;
+	background-color: white;
+	width: 400px;
+	height:460px;
+	margin-bottom: 50px;
+}
+form{
+	margin:20px 30px 20px 30px;
+}
+.formp{
+	color:#666666;		
+}
+
+input{
+	border:2px solid #d3d3d3;
+	padding:5px;
+	width:100%;
+	margin:10px 0px 10px 0px;
+	color:#d3d3d3;
+}
+textarea{
+	margin:10px 0px 10px 0px;
+	border:2px solid #d3d3d3;
+	width:100%;
+	height:90px;
+}
+
+.conwithme{
+	background-color: white;
+	width: 265px;
+	height:200px;
+	
+}
+.conwithpara{
+	padding:10px;
+	text-align: center;
+	color:#4aaaa5;
+}
+.conwithdiv{
+	height:2px;
+	width:95%;
+	background-color: #d3d3d3;
+	margin-left: 7px;
+}
+.icon{
+	height:20%;
+	width:20%;
+	margin: 35px 0px 0px 20px;
+}
+.soicon{
+	float:left;
+}
+.githubicon{
+	float:left;
+}
+.linkedinicon{
+	float:left;
+}
+.prefoot{
+	position: absolute;
+    left: 0;
+    bottom: 50px;
+	width:100%;
+	height:5px;
+	background-color: #4aaaa5;
+	
+}
+.footr{
+	margin-top: 20px;
+}
+footer {
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #666666;
+    text-align: center;
+}
+.footp {
+	padding:16px;
+	color:white;
+}
